@@ -2,79 +2,26 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Assignment Solution for Module 2</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<style>
-
-	*{
-		box-sizing: border-box;
-	}
-
-	/*heading of the page*/
-	h1 {
-		margin-top: 30px;
-		text-align: center;
-		font-size: 30px;
-		margin-bottom: 30px;
-	}
-
-	p{
-		background-color:#FA8072;
-		margin: 10px;
-		border: 2px solid black;
-		padding: 50px 10px 10px 10px;
-	}
-
-
-	/********** Destop view only **********/
-	@media (min-width: 992px){
-	p{
-		width: 31%;
-		float: left;
-	}
-
-	/********** Tablets only **********/
-
-	@media (min-width: 768px) and (max-width: 991px){
-		#p1{
-		width: 50%;
-		float: left;
-		}
-
-		#p2{
-		width: 50%;
-		float: left;
-		}
-
-		#p3{
-		width: 50%;
-		float: left;
-		}
-	}
-
-	/********** Phones only **********/
-
-
-	@media (max-width: 767px){
-		.col-sm-4{
-			}
-		}
-</style>
 </head>
 <body>
-	
 	<h1>Our Menu</h1>
 
-	<div class="col-sm-4 col-sm-2">
-		<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta pedita.</p>
-	</div>
-	<div class="col-sm-4 col-sm-2">
-		<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
-	</div>
-	<div class="col-sm-4 col-sm-2">
-		<p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
-	</div>
-  		
+	<div class="container">
+		<div id="section1" class="col-md-4 col-lg-6">
+			<h2 id="heading1">Chicken</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga</p>
+		</div>
+		<div id="section2" class="col-md-4 col-lg-6">
+			<h2 id="heading2">Beef</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga</p>
+		</div>
+		<div id="section3"class="col-md-4 col-lg-12">
+			<h2 id="heading3">Sushi</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga</p>
+		</div>
 	</div>
 </body>
 </html>
