@@ -63,18 +63,16 @@ h1{
   text-align: center;
 }
 
-#section{
+.col-xs-12{
   font-size: 10px;
   text-align:center;
   background-color: gray;
   height: 1000px;
   margin-bottom: 10px;
+  background-color: #DAA520;
 }
 
 h2{
   font-size: 16px;
   font-weight: bold;
-}
-#section {
-  background-color: #DAA520;
 }
